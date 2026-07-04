@@ -1,0 +1,12 @@
+[project]
+name = "ov-cv"
+version = "0.1.0"
+description = "Tests using OpenVINO and OpenCV "
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "opencv-python>=5.0.0.93",
+    "openvino==2026.2.1",
+    "ultralytics>=8.4.84",
+]
